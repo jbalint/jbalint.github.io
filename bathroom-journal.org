@@ -2,4 +2,6 @@
 
 ** December 2020
    + Dry fitting the tub
-   [[https://www.dropbox.com/s/6a0mtg2ztg2rt6t/2020-12-22%2012.21.19.jpg?raw=1]]
+#+BEGIN_EXPORT html
+<img src="https://www.dropbox.com/s/6a0mtg2ztg2rt6t/2020-12-22%2012.21.19.jpg?raw=1">
+#+END_EXPORT
