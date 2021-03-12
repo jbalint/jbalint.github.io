@@ -3,5 +3,5 @@
 ** December 2020
    + Dry fitting the tub
 #+BEGIN_EXPORT html
-<img src="https://www.dropbox.com/s/6a0mtg2ztg2rt6t/2020-12-22%2012.21.19.jpg?raw=1">
+<img src="https://jbalint.imgix.net/https%3A%2F%2Fwww.dropbox.com%2Fs%2F6a0mtg2ztg2rt6t%2F2020-12-22%252012.21.19.jpg?raw=1&s=1f1e979206a5ab1b5e7547c0b3b600d6">
 #+END_EXPORT
