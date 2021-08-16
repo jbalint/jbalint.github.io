@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-03-12 Fri 16:07 -->
+<!-- 2021-08-16 Mon 17:11 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -40,7 +40,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -52,7 +52,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -194,50 +194,26 @@
   /*]]>*/-->
 </style>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -246,34 +222,37 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org09070dc">1. Bathroom Journal</a>
+<li><a href="#org167c574">1. Bathroom Journal</a>
 <ul>
-<li><a href="#orgaf092fc">1.1. December 2020</a></li>
+<li><a href="#org133440c">1.1. December 2020</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org09070dc" class="outline-2">
-<h2 id="org09070dc"><span class="section-number-2">1</span> Bathroom Journal</h2>
+<div id="outline-container-org167c574" class="outline-2">
+<h2 id="org167c574"><span class="section-number-2">1</span> Bathroom Journal</h2>
 <div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>This page scales images locally and may take a long time to load</li>
+</ul>
 </div>
-<div id="outline-container-orgaf092fc" class="outline-3">
-<h3 id="orgaf092fc"><span class="section-number-3">1.1</span> December 2020</h3>
+
+<div id="outline-container-org133440c" class="outline-3">
+<h3 id="org133440c"><span class="section-number-3">1.1</span> December 2020</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Dry fitting the tub</li>
 </ul>
-<img src="https://jbalint.imgix.net/https%3A%2F%2Fdl.dropboxusercontent.com%2Fsc%2Fw7236l4tkdptpla%2FAADdIlq3GnU1M7G59kstRf3Na%2F0%3Fexpiry%3D1615588458%26token_hash%3DAAH6z7j8s39bniMirCDVYRDIBt0WczYzFaKhmXTA1hiXpA%3Fraw%3D1?fit=scale&w=500&s=7b6782e05976308680d07b419f33de0e">
-<img src="https://jbalint.imgix.net/https%3A%2F%2Fdl.dropboxusercontent.com%2Fsc%2Fw7236l4tkdptpla%2FAADdIlq3GnU1M7G59kstRf3Na%2F0%3Fexpiry%3D1615588458%26token_hash%3DAAH6z7j8s39bniMirCDVYRDIBt0WczYzFaKhmXTA1hiXpA%3Fraw%3D1?fit=scale&w=500&s=7b6782e05976308680d07b419f33de0e">
+<img src="https://www.dropbox.com/s/qzmjtxsm10658lv/2021-08-15%2017.33.06.jpg?dl=1" width="600">
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Jess Balint</p>
-<p class="date">Created: 2021-03-12 Fri 16:07</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2021-08-16 Mon 17:11</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>

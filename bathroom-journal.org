@@ -1,8 +1,8 @@
 * Bathroom Journal
+  + This page scales images locally and may take a long time to load
 
 ** December 2020
    + Dry fitting the tub
 #+BEGIN_EXPORT html
-<img src="https://jbalint.imgix.net/https%3A%2F%2Fdl.dropboxusercontent.com%2Fsc%2Fw7236l4tkdptpla%2FAADdIlq3GnU1M7G59kstRf3Na%2F0%3Fexpiry%3D1615588458%26token_hash%3DAAH6z7j8s39bniMirCDVYRDIBt0WczYzFaKhmXTA1hiXpA%3Fraw%3D1?fit=scale&w=500&s=7b6782e05976308680d07b419f33de0e">
-<img src="https://jbalint.imgix.net/https%3A%2F%2Fdl.dropboxusercontent.com%2Fsc%2Fw7236l4tkdptpla%2FAADdIlq3GnU1M7G59kstRf3Na%2F0%3Fexpiry%3D1615588458%26token_hash%3DAAH6z7j8s39bniMirCDVYRDIBt0WczYzFaKhmXTA1hiXpA%3Fraw%3D1?fit=scale&w=500&s=7b6782e05976308680d07b419f33de0e">
+<img src="https://www.dropbox.com/s/qzmjtxsm10658lv/2021-08-15%2017.33.06.jpg?dl=1" width="600">
 #+END_EXPORT
